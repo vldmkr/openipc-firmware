@@ -15,51 +15,51 @@ jobs:
       matrix:
         include:
           # Sigmastar
-          - {"platform": "ssc325"}
-          - {"platform": "ssc335"}
-          - {"platform": "ssc377"}
-          - {"platform": "ssc338q"}
+          # - {"platform": "ssc325"}
+          # - {"platform": "ssc335"}
+          # - {"platform": "ssc377"}
+          # - {"platform": "ssc338q"}
 
           # Hisilicon
-          - {"platform": "hi3516av100"}
-          - {"platform": "hi3516cv100"}
-          - {"platform": "hi3516cv200"}
-          - {"platform": "hi3516cv300"}
-          - {"platform": "hi3516cv500"}
-          - {"platform": "hi3516ev200"}
-          - {"platform": "hi3519v101"}
-          - {"platform": "hi3536cv100"}
-          - {"platform": "hi3536dv100"}
+          # - {"platform": "hi3516av100"}
+          # - {"platform": "hi3516cv100"}
+          # - {"platform": "hi3516cv200"}
+          # - {"platform": "hi3516cv300"}
+          # - {"platform": "hi3516cv500"}
+          # - {"platform": "hi3516ev200"}
+          # - {"platform": "hi3519v101"}
+          # - {"platform": "hi3536cv100"}
+          # - {"platform": "hi3536dv100"}
 
           # Goke
-          - {"platform": "gk7102"}
+          # - {"platform": "gk7102"}
           - {"platform": "gk7205v200"}
 
           # Ingenic
-          - {"platform": "t20"}
-          - {"platform": "t21"}
-          - {"platform": "t31"}
-          - {"platform": "t40"}
+          # - {"platform": "t20"}
+          # - {"platform": "t21"}
+          # - {"platform": "t31"}
+          # - {"platform": "t40"}
 
           # Allwinner
-          - {"platform": "v851s"}
+          # - {"platform": "v851s"}
 
           # Fullhan
-          - {"platform": "fh8852v100"}
-          - {"platform": "fh8852v200"}
+          # - {"platform": "fh8852v100"}
+          # - {"platform": "fh8852v200"}
 
           # Grainmedia
-          - {"platform": "gm8136"}
+          # - {"platform": "gm8136"}
 
           # Novatek
-          - {"platform": "nt98562"}
+          # - {"platform": "nt98562"}
 
           # Rockchip
-          - {"platform": "rv1126"}
+          # - {"platform": "rv1126"}
 
           # Xiongmai
-          - {"platform": "xm510"}
-          - {"platform": "xm530"}
+          # - {"platform": "xm510"}
+          # - {"platform": "xm530"}
 
     steps:
       - name: Checkout source

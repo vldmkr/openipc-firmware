@@ -1,5 +1,5 @@
 #!/bin/sh
-link=https://github.com/openipc/firmware/releases/download/latest
+link=https://github.com/vldmkr/openipc-firmware/releases/download/latest
 
 if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
 	echo "Usage: $0 [uboot] [firmware] [variant]"
