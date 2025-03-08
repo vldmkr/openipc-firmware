@@ -1,7 +1,6 @@
 name: image
+
 on:
-  schedule:
-    - cron: '30 23 * * *'
   workflow_dispatch:
 
 env:
@@ -17,7 +16,7 @@ jobs:
     steps:
       - name: Prepare
         run: |
-            link=https://github.com/openipc/firmware/releases/download/latest
+            link=https://github.com/vldmkr/openipc-firmware/releases/download/latest
             create() {
               uboot=u-boot-$1-nor.bin
               firmware=openipc.$2-nor-$3.tgz
